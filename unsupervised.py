@@ -13,7 +13,7 @@ from sklearn import datasets
 import matplotlib.pyplot as plt
 
 # loading data
-"""iris_df = datasets.load_iris()
+iris_df = datasets.load_iris()
 
 # Available methods on datasets
 print(iris_df)
@@ -60,7 +60,7 @@ all_predictions = model.predict(iris_df.data)
 
 # printing prediction
 print(predicted_label)
-print(all_predictions)"""
+print(all_predictions)
 
 
 # hierarchical clustering
