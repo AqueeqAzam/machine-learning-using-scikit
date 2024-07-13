@@ -190,9 +190,9 @@ from sklearn import metrics
 
 # model acuracy, how ofter is the classifier correct
 print('Accuracy of KNN:', accuracy_score(y_test, y_pred))
-# print('Precision:', metrics.precision_score(y_test, y_pred))
-# print('Recall:', metrics.recall_score(y_test, y_pred))
-# print(metrics.classification_report(y_test, y_pred))
+print('Precision:', metrics.precision_score(y_test, y_pred))
+print('Recall:', metrics.recall_score(y_test, y_pred))
+print(metrics.classification_report(y_test, y_pred))
 
 
 
